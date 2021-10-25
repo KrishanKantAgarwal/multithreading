@@ -19,7 +19,7 @@ public class FixedThreadPool {
 		 * 
 		 * To see the difference change 3 to 6 and see the output.
 		 */
-		for(int i = 0; i < 3; i++) {
+		for(int i = 0; i < 6; i++) {
 			//Service phase
 			executorService.execute(new TaskA());
 		}
